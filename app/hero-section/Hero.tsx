@@ -71,14 +71,14 @@ const Hero = () => {
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
             variants={imageAnimation}
           >
-            <Image
+            { /*<Image
               src={profile}
               priority
               alt="Victor's headshot"
               data-blobity-tooltip="Giga Chad"
               data-blobity-invert="false"
               className=" h-[300px] w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
-            />
+            /> */}
           </motion.div>
         </div>
       </div>
