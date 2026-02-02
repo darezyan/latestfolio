@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Dare Favour — Frontend Engineer",
   description:
-    "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Frontend Engineer and Web Designer, previously at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
   generator: "Next.js",
   applicationName: "Dare Favour Portfolio",
   keywords: [
