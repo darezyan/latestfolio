@@ -102,7 +102,15 @@ const Hero = () => {
             >
               Kora,
             </Link>{" "}
-            currently available for work.
+            currently at{" "}
+            <Link
+              href="https://squadco.com/"
+              target="_blank"
+              className="underline underline-offset-2 hover:no-underline"
+              aria-label="Squad by GTCO Website"
+            >
+              Squad by GTCO.
+            </Link>
           </p>
         </motion.div>
 
