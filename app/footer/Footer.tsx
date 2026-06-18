@@ -19,7 +19,7 @@ const Footer = () => {
             className={"m-0 p-0"}
           />
           <span className="underline underline-offset-2 hover:no-underline">
-            <AnimatedBody text={"Dare Favour"} className={"m-0 p-0"} />
+            <AnimatedBody text={"Dare Zayan"} className={"m-0 p-0"} />
           </span>{" "}
         </div>
       </motion.div>
