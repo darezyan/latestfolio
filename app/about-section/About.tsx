@@ -12,7 +12,7 @@ const About = () => {
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
         <AnimatedTitle
           text={
-            "I MAKE BRANDS BEAUTIFUL, WEBSITES POWERFUL AND CONTENT CAPTIVATING."
+            "I DESIGN AND BUILD PRODUCTS PEOPLE TRUST AND ENJOY USING."
           }
           className={
             "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
@@ -25,7 +25,7 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "I specialize in crafting high-converting landing pages and websites for SaaS, Web3 & AI startups. I'm passionate about building software that makes a difference."
+                "I’m a frontend engineer from Lagos. I started out designing interfaces, and I still think like a designer: I sweat the small details until a product feels obvious to use."
               }
             />
             <AnimatedBody
@@ -36,7 +36,7 @@ const About = () => {
             />
             <AnimatedBody
               text={
-                "Beyond my foundation in frontend development, I’ve spent the last few months diving deep into the backend, mastering Node.js and C# to build more robust, end-to-end applications."
+                "I’ve spent the last few years in fintech, at Kora, Squad and now Lendsqr, building the screens people trust with their money. Outside work I build the things I wish existed, and I’ve been learning the backend properly so I can own a product from the first sketch to the last deploy."
               }
             />
             <AnimatedBody
