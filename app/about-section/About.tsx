@@ -63,7 +63,22 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "JavaScript (ES6+), React, Next.js, TypeScript, Prismic CMS, Redux, Redux Toolkit, React Testing Library, Vitetest, HTML5, Git/GitHub, NextAuth, Formik."
+                  "TypeScript, JavaScript (ES6+), React, Next.js, Vite, TanStack Query, Redux Toolkit, React Hook Form, Zod, Storybook, Playwright, Vitest, React Testing Library."
+                }
+              />
+            </div>
+            <div className="flex flex-col gap-3">
+              <AnimatedTitle
+                text={"Backend & Data"}
+                className={
+                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={
+                  "Supabase, PostgreSQL, Node.js, Express, C#, Edge Functions, Socket.IO, LiveKit, Claude API, Sentry."
                 }
               />
             </div>
@@ -78,7 +93,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "CSS3/SCSS/SASS, Tailwind CSS, Material UI, Framer Motion, GSAP, Bootstrap, Chart.js."
+                  "Tailwind CSS, shadcn/ui, Radix UI, Framer Motion, GSAP, Recharts, D3, CSS3/SCSS."
                 }
               />
             </div>
