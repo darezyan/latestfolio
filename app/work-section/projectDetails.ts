@@ -23,6 +23,18 @@ export const devProjects = [
   },
 
   {
+    id: 2,
+    name: "Èkó",
+    description:
+      "A Lagos-themed property trading board game. Play robots that haggle and swap deals, or friends online in shared rooms with live chat and voice.",
+    technologies: ["React", "TypeScript", "LiveKit"],
+    github: "https://github.com/darezyan/monopoly",
+    demo: "https://eko.darezyan.me/",
+    image: require(".//../../public/projects/eko-flip.png"),
+    available: true,
+  },
+
+  {
     id: 3,
     name: "Propellent",
     description:
