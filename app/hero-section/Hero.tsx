@@ -95,6 +95,15 @@ const Hero = () => {
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
             Frontend Engineer and Web Designer, prev at{" "}
             <Link
+              href="https://squadco.com/"
+              target="_blank"
+              className="underline underline-offset-2 hover:no-underline"
+              aria-label="Squad by GTCO Website"
+            >
+              Squad by GTCO
+            </Link>{" "}
+            and{" "}
+            <Link
               href="https://www.korahq.com/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
@@ -104,12 +113,12 @@ const Hero = () => {
             </Link>{" "}
             currently at{" "}
             <Link
-              href="https://squadco.com/"
+              href="https://lendsqr.com/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
-              aria-label="Squad by GTCO Website"
+              aria-label="Lendsqr Website"
             >
-              Squad by GTCO.
+              Lendsqr.
             </Link>
           </p>
         </motion.div>
