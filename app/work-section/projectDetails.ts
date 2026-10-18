@@ -12,13 +12,13 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 1,
-    name: "Interlock",
+    name: "Civlibs",
     description:
-      "This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/darezyan/project2",
-    demo: "https://project2-two-ashy.vercel.app/",
-    image: require(".//../../public/projects/interlock.png"),
+      "Nigeria's civic library: news, politicians and government bodies in one place, making civic information easier to find, understand and use.",
+    technologies: ["Next.js", "Supabase", "Claude API"],
+    github: "https://github.com/darezyan/civlibs",
+    demo: "https://civlibs.com/",
+    image: require(".//../../public/projects/civlibs.png"),
     available: true,
   },
 
@@ -36,13 +36,25 @@ export const devProjects = [
 
   {
     id: 3,
+    name: "Interlock",
+    description:
+      "This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/darezyan/project2",
+    demo: "https://project2-two-ashy.vercel.app/",
+    image: require(".//../../public/projects/interlock.png"),
+    available: true,
+  },
+
+  {
+    id: 4,
     name: "Propellent",
     description:
       "A website built for a software startup and small business, to showcase their services and mark their online presence.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/darezyan/project1",
     demo: "https://propellant-icmar8ty5-darefvrs-projects.vercel.app/",
-    image: require(".//../../public/projects/propellent-new.png"),
+    image: require(".//../../public/projects/propellent-new-flip.png"),
     available: true,
   },
 
