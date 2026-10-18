@@ -11,6 +11,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://darezyan.me"),
   title: "Dare Zayan | Frontend Engineer",
   description:
     "Frontend Engineer and Web Designer at Lendsqr, previously at Squad by GTCO and Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
@@ -57,6 +58,22 @@ export const metadata: Metadata = {
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
     ],
     apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://darezyan.me",
+    siteName: "Dare Zayan",
+    title: "Dare Zayan | Frontend Engineer",
+    description:
+      "Frontend Engineer and Web Designer at Lendsqr, previously at Squad by GTCO and Kora. Working remotely from Lagos, Nigeria.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Dare Zayan, Frontend Engineer" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dare Zayan | Frontend Engineer",
+    description: "Frontend Engineer and Web Designer at Lendsqr, working remotely from Lagos, Nigeria.",
+    creator: "@darezyan",
+    images: ["/og-image.png"],
   },
   manifest: "/site.webmanifest",
   themeColor: "#0E1016",
