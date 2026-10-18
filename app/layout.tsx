@@ -11,7 +11,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Dare Zayan — Frontend Engineer",
+  title: "Dare Zayan | Frontend Engineer",
   description:
     "Frontend Engineer and Web Designer at Lendsqr, previously at Squad by GTCO and Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
   generator: "Next.js",
