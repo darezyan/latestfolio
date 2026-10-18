@@ -59,7 +59,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-2 lg:py-40 ">
+      <div className="-mt-10 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-2 lg:py-40 ">
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
@@ -67,8 +67,9 @@ const Hero = () => {
             title="DARE ZAYAN"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
+          {/* Overlaps the name on large screens; on smaller ones the name is too short, so it sits below */}
           <motion.div
-            className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
+            className="mx-auto mt-5 md:mt-10 lg:absolute lg:bottom-[-150px] lg:mt-0"
             variants={imageAnimation}
           >
             <Image
@@ -77,7 +78,7 @@ const Hero = () => {
               alt="Dare Zayan's headshot"
               data-blobity-tooltip="Giga Chad"
               data-blobity-invert="false"
-              className=" h-[300px] w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+              className="h-[128px] w-[104px] rounded-[14px] object-cover grayscale hover:grayscale-0 md:h-[222px] md:w-[180px] md:rounded-[24px] lg:h-[300px] lg:w-[245px] lg:rounded-[32px]"
             />
           </motion.div>
         </div>
