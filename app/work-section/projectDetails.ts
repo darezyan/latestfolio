@@ -58,6 +58,18 @@ export const devProjects = [
     available: true,
   },
 
+  {
+    id: 5,
+    name: "Form Filler",
+    description:
+      "A local app for sending sample responses to your own Google Forms. It reads each question's rules, fills valid answers, and lets you fix any answer you want to control.",
+    technologies: ["Python", "JavaScript", "HTML & CSS"],
+    github: "https://github.com/darezyan/GoogleForm-AutoFill",
+    demo: "",
+    image: require(".//../../public/projects/form-filler.png"),
+    available: true,
+  },
+
   // {
   //   id: 4,
   //   name: "SkyWatch",
